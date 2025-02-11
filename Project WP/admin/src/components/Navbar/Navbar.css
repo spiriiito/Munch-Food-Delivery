@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    background-color: lavender;
+}
+
+.navbar .logo{
+    width: max(10%, 80px);
+}
+
+.navbar .profile{
+    width: 60px;
+    border: 2px #4B0082;
+    border-style: groove;
+    border-radius: 30px;
+    cursor: pointer;
+}
